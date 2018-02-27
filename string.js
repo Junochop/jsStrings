@@ -13,3 +13,11 @@ var DNA = "GCAT";
 var RNA = DNA[0]+ DNA[1] + DNA[2] + "U";
 console.log("RNA:", RNA);
 
+//challenge #4
+var animal = "AllIgator";
+
+if (animal.toLowerCase() === "alligator")  {
+    console.log("small");
+}else {
+    console.log("big");
+}
