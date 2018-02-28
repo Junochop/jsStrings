@@ -27,3 +27,11 @@ var yarn = "the better string";
 var domString = "<h4>" + yarn + "<h4>";
 var myDiv = document.getElementById('yarn-holder');
 myDiv.innerHTML = domString;
+
+
+//challenge #5
+var str = "IBMWLOVEbmcatsbmw";
+var domString2 = "<h1>" + str.replace(/[bmwBMW]/g, '') + "<h1>";
+var myDiv2 = document.getElementById('str-holder');
+myDiv2.innerHTML = domString2;
+
